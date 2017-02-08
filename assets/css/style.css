@@ -2,17 +2,16 @@
 * {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color:grey;
-    background-image: url(assets/images/asanoha-400px.png)
 
 }
 #container {
-    width: 100%;
-    border-bottom: solid  2px #d3d3d3;
-    background-image: url(assets/images/asanoha-400px.png)
+	width: 100%;
+	border-bottom: solid  2px #d3d3d3;
 }
 
 section {
 	color: grey;
+	text-decoration: underline
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 40%;
 	float:left;
@@ -31,15 +30,13 @@ section {
 }
 
 #pattern {
-	background: red;
 	width: 100%;
-
 	border-top: solid;
 }
 
 html {
-	 position: relative;
-     min-height: 100%;
+	position: relative;
+	min-height: 100%;
 
 }
 
@@ -61,7 +58,7 @@ nav {
 	position: relative;
 	right:300px;
 	bottom: 30px;
-	text-decoration: none;
+	font-weight: lighter;
 
 }
 body {
@@ -83,17 +80,18 @@ h2 {
 }
 img {
 	padding:5px;
+
 }
-	
+
 footer {
-background-color: #666666;
-padding:20px;
-clear:both;
-border-top: solid 5px #4aaaa5;
-position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 20px;
-    width: 100%;
+	background-color: #666666;
+	padding:20px;
+	clear:both;
+	border-top: solid 5px #4aaaa5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
 }
 
